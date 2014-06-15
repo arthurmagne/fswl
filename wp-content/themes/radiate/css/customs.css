@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Economica);
+.easingsliderlite{
+	margin: 0 auto !important;
+	margin-bottom: 50px !important;
+}
+
+#content {
+	background-color: #fff !important;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/****
+* Header 
+******************************/
+
+.header-wrap{
+	background-color: #9FD3D2;
+	opacity: 1;
+	border: none;
+	height: 40px;
+}
+
+#site-navigation{
+	float: left;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+#site-navigation li > a{
+	font-size: 14px;
+	line-height: 2.7em;
+}
+
+.main-navigation li, .header-search-icon{
+	border: none;
+}
+
+.main-navigation ul li a{
+	height: 40px;
+	line-height: 2em;
+	color: white;
+}
+
+.header-search-icon:before{
+	color: white !important;
+}
+
+.header-search-icon{
+	padding: 0;
+	background-color: #F05098 !important;
+}
+
+#masthead .search-form {
+	background-color: #F05098 !important;
+}
+
+#masthead .search-form{
+	right: 40px;
+	padding: 6px 20px;
+	top: 0px;
+}
+
+.main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+	background-color: #F05098 !important;
+	color: #fff !important;
+}
+
+
+/****
+* Footer
+******************************/
+
+#footer {
+	background: #9FD3D2 !important;
+	color: white !important;
+	height: 190px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	font-size: 0.9em;
+}
+
+#footer .footer-content{
+	padding-top: 2em;
+	text-align: center;
+	line-height: 2em;
+}
+
+#footer .footer-content .back-top{
+	background: white;
+	color: #9FD3D2;
+	padding: 2px 6px;
+}
+
+#footer .footer-socials{
+	text-align: center;
+	padding-top: 1em;
+}
+
+#footer .footer-socials span:not(:last-child){
+	padding-right: 10px;
+}
+
+#footer .mail-to{
+	text-decoration: underline;
+	color: white;
+}
+
+/****
+* Recent posts
+******************************/
+
+.recent-posts-container{
+	text-align: center;
+	width: 1050px;
+	margin: 0 auto;
+	
+}
+
+.recent-posts-container .recent-posts li{
+	float: left;
+	width: 330px;
+
+}
+
+.recent-posts-container .recent-posts li:nth-child(2){
+	margin: 0 30px;
+}
+
+.recent-posts-container .recent-posts .attachment-post-thumbnail{
+	display: block;
+    max-width:330px;
+    max-height:220px;
+    width: 100%;
+    height: auto;
+}
+
+.entry-title a , .entry-title{
+	font-family: 'Oleo Script', cursive;
+}
+
+
+input[type=submit]{
+	background-color: #F05098 !important;
+}
+
+
+.comments-area .comment-edit-link, .comments-area .comment-permalink, .comments-area .comment-date-time, .comments-area .comment-author-link {
+display: block;
+margin-left: 100px;
+color: #9FD3D2;
+text-transform: uppercase;
+font-family: lato;
+}
+
+.comments-area .comment-author-link a {
+color: #f05098;
+}
+
+#comments h2.comments-title {
+margin-bottom: 30px;
+font-family: lato;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.nav-links .nav-previous a, .nav-links .nav-next a {
+	color: white;
+	display: block;
+	font-family: lato;
+	background: #f05098;
+	font-size: 16px;
+	padding: 8px 16px;
+	border-radius: 4px;
+	text-decoration: none !important;
+
+}
+
+.nav-links .nav-previous a:hover, .nav-links .nav-next a:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	cursor: pointer;
+}
+
+#submit{
+	font-family: lato;
+	font-size: 16px;
+
+}
+
+/****
+* Slider
+******************************/
+
+.easingsliderlite-arrows{
+    width: 73px;
+    height: 73px;
+    top: 40%;
+}
+
+.easingsliderlite-arrows.easingsliderlite-next {
+    background-image: url(../images/slideshow/arrow_right.png);
+    background-position: top left;
+    background-size: cover;
+}
+
+.easingsliderlite-arrows.easingsliderlite-prev {
+    background-image: url(../images/slideshow/arrow_left.png);
+    background-position: top right;
+    background-size: cover;
+}
+
+.easingsliderlite-icon {
+    background-image: url(../images/slideshow/dot_white.png);
+}
+
+.easingsliderlite-icon.active {
+    background-image: url(../images/slideshow/dot_pink.png);
+}
+
+
+
+
+

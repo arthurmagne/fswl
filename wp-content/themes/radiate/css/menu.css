@@ -1,0 +1,83 @@
+.menu-container, .sub-menu-container{	
+	position: relative;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.menu-container .menu, .menu-container .sub-menu{
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	list-style: none;
+	width: 1050px;
+	z-index: 100;
+}
+
+.menu-container .menu > li{
+	float: left;
+}
+
+.menu-container .menu li a{
+	display: inline-block;
+	padding: 1em 3em;
+	color: #444444;
+
+}
+
+.menu-container .menu li:hover > a{
+	color: #bbb;
+}
+
+.menu-container .menu li a:hover{
+	text-decoration: none !important;
+}
+
+.menu-separator{
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.menu-border-top, .menu-border-bottom{
+	background-color: #444444;
+	height: 1px;
+	width: 1050px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.sub-menu-container{
+	width: 1050px;
+	left: 0;
+	position: absolute;
+}
+
+.menu-container .sub-menu{
+	display: none;
+	float: left;
+	width: 100%;
+	text-align: center;
+
+}
+
+.menu-container .sub-menu li{
+	display: inline-block;
+}
+
+.menu-container .menu li:hover .sub-menu{
+	display: block;
+}
+
+.menu-separator{
+	color: #d3a02a;
+}
+
+
+.main-navigation a {
+font-family: 'Lato';
+padding: 0 25px;
+display: block;
+text-decoration: none;
+}
