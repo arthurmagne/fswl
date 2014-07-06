@@ -29,7 +29,39 @@
 
 			<div class="header-search-icon"></div>
 			<?php get_search_form(); ?>	
-
+			<!-- Socials -->
+			<ul class="socials">
+				<li>
+					<a href="https://www.facebook.com/FromSomewhereWithLove" class="icon-feed" target="_blank">
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Facebook.png" alt="test">
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/smwhrwithlove" class="icon-feed" target="_blank">
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Twitter.png" alt="test">
+					</a>
+				</li>				
+				<li>
+					<a href="http://www.hellocoton.fr/mapage/somewherewithlove" class="icon-feed" target="_blank">
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Hellocoton.png" alt="test">
+					</a>
+				</li>				
+				<li>
+					<a href="http://instagram.com/somewherewithlove" class="icon-feed" target="_blank">
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Instagram.png" alt="test">
+					</a>
+				</li>				
+				<li>
+					<a href="http://www.pinterest.com/somewhrwithlove/" class="icon-feed" target="_blank">
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Pinterest.png" alt="test">
+					</a>
+				</li>				
+				<li>
+					<a href="mailto:somewherewithlove@hotmail.fr" class="icon-feed" >
+						<img src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Mail.png" alt="test">
+					</a>
+				</li>
+			</ul>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<h1 class="menu-toggle"></h1>
 				<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'radiate' ); ?></a>
@@ -41,7 +73,6 @@
 
 	<div id="content" class="site-content">
 		<div class="menu-container">
-			<hr class="menu-border-top">
 			<menu class="menu">
 				<li>
 					<a href="#">Design de Blogs</a>
@@ -92,7 +123,6 @@
 					<a href="#">Lifestyle</a>
 				</li>
 			</menu>
-			<hr class="menu-border-bottom">
 		</div>
 		<div class="menu-separator"></div>
 		<div class="inner-wrap">

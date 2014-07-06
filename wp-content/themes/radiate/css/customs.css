@@ -133,12 +133,49 @@ body{
 	margin: 0 30px;
 }
 
+.post-thumb{
+    background: #9FD3D2;
+      width:330px;
+    height:220px;
+  margin: 0;
+  background: url(http://laulineafaitdesphotos.com/wp-content/themes/Yegor/image/icon_photo2.png) no-repeat left center;
+background-color: #9FD3D2;
+position: relative;
+-webkit-transition: 200ms ease-out all;
+-moz-transition: 200ms ease-out all;
+transition: 200ms ease-out all;
+overflow: hidden;
+}
+
+.post-thumb:hover{
+  background: url(http://laulineafaitdesphotos.com/wp-content/themes/Yegor/image/icon_photo2.png) no-repeat center center;
+position: relative;
+background-color: #9FD3D2;
+-webkit-transition: 300ms ease-out all;
+-moz-transition: 300ms ease-out all;
+transition: 300ms ease-out all;
+}
+
 .recent-posts-container .recent-posts .attachment-post-thumbnail{
 	display: block;
-    max-width:330px;
-    max-height:220px;
-    width: 100%;
-    height: auto;
+    width:330px;
+    height:220px;
+  -webkit-transition: 300ms ease-out all;
+  -moz-transition: 300ms ease-out all;
+  transition: 300ms ease-out all;
+}
+
+.recent-posts-container .recent-posts .attachment-post-thumbnail:hover {
+  opacity: 0;
+  -webkit-transition: 300ms ease-out scale(1.06) all;
+  -moz-transition: 300ms ease-out scale(1.06) all;
+  transition: 300ms ease-out scale(1.06) all;
+  -webkit-transform: scale(1.06);
+	-webkit-backface-visibility: hidden;
+}
+  
+.recent-posts-container .recent-post-header {
+	text-transform: uppercase;
 }
 
 .entry-title a , .entry-title{
@@ -194,6 +231,14 @@ font-size: 20px;
 
 }
 
+.popular-post-info{
+  background: #f2f2f2;
+  padding: 10px;
+  padding-top: 2px;
+}
+
+
+
 /****
 * Slider
 ******************************/
@@ -205,26 +250,36 @@ font-size: 20px;
 }
 
 .easingsliderlite-arrows.easingsliderlite-next {
-    background-image: url(../images/slideshow/arrow_right.png);
+    background-image: url(../images/slideshow/arrow_right.png) !important;
     background-position: top left;
     background-size: cover;
 }
 
 .easingsliderlite-arrows.easingsliderlite-prev {
-    background-image: url(../images/slideshow/arrow_left.png);
+    background-image: url(../images/slideshow/arrow_left.png) !important;
     background-position: top right;
     background-size: cover;
 }
 
 .easingsliderlite-icon {
-    background-image: url(../images/slideshow/dot_white.png);
+    background-image: url(../images/slideshow/dot_white.png) !important;
 }
 
 .easingsliderlite-icon.active {
-    background-image: url(../images/slideshow/dot_pink.png);
+    background-image: url(../images/slideshow/dot_pink.png) !important;
 }
 
+.easingsliderlite-pagination.inside.bottom-center {
+	bottom: 20px !important;
+}
 
+/****
+* Slider
+******************************/
+
+.search-field{
+	font-family: Lato;
+}
 
 
 

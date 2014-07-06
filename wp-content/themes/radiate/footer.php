@@ -15,30 +15,42 @@
 
 	<footer id="footer" role="contentinfo" class="main-footer">
 		<div class="footer-socials">
-			<span>
-				<i class="fa fa-facebook round-icon"></i>
-				Facebook
-			</span>
-			<span>
-				<i class="fa fa-twitter round-icon"></i>
-				Twitter
-			</span>
-			<span>
-				<i class="fa fa-instagram round-icon"></i>
-				Instagram
-			</span>
-			<span>
-				<i class="fa fa-facebook round-icon"></i>
-				Hellocoton
-			</span>
-			<span>
-				<i class="fa fa-pinterest round-icon"></i>
-				Pinterest
-			</span>
-			<span>
-				<i class="fa fa-envelope-o round-icon"></i>
-				Mail
-			</span>
+			<a href="https://www.facebook.com/FromSomewhereWithLove" target="_blank">
+				<span>
+					<i class="fa fa-facebook round-icon"></i>
+					Facebook
+				</span>
+			</a>
+			<a href="https://twitter.com/smwhrwithlove" target="_blank">
+				<span>
+					<i class="fa fa-twitter round-icon"></i>
+					Twitter
+				</span>
+			</a>
+			<a href="http://instagram.com/somewherewithlove" target="_blank">
+				<span>
+					<i class="fa fa-instagram round-icon"></i>
+					Instagram
+				</span>
+			</a>
+			<a href="http://www.hellocoton.fr/mapage/somewherewithlove" target="_blank">
+				<img class="hellocoton-img" src="<?php echo get_bloginfo('template_directory');?>/images/social-network/Hellocoton.png" alt="#">
+				<span class="hellocoton">
+					Hellocoton
+				</span>
+			</a>
+			<a href="http://www.pinterest.com/somewhrwithlove/" target="_blank">
+				<span>
+					<i class="fa fa-pinterest round-icon"></i>
+					Pinterest
+				</span>
+			</a>
+			<a href="mailto:somewherewithlove@hotmail.fr">
+				<span>
+					<i class="fa fa-envelope-o round-icon"></i>
+					Mail
+				</span>
+			</a>
 		</div>
     	<div class="footer-content">
             ©From Somewhere With Love 2014 / Tous droits réservés. <br> Graphisme par 

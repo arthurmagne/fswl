@@ -8,6 +8,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<span class="post-line"></span>
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
@@ -32,6 +33,11 @@
 		?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
+
+	<!-- Back to top -->
+	<div class="back-to-top-container">
+		<img src="<?php echo get_bloginfo('template_directory');?>/images/top-arrow.png">
+	</div>
 
 	<footer class="entry-meta">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>

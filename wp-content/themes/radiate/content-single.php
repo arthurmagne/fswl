@@ -10,6 +10,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<span class="post-line"></span>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
@@ -26,6 +27,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+	<span id="template-directory" style="display: none"><?php echo get_bloginfo('template_directory');?></span>
 
 	<footer class="entry-meta">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>

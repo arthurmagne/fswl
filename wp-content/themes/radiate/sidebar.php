@@ -8,6 +8,9 @@
  */
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
+		<div class="hello-sidebar">
+			<img class="widget" src="<?php echo get_bloginfo('template_directory');?>/images/Hello.png">
+		</div>
 		<?php do_action( 'before_sidebar' ); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 

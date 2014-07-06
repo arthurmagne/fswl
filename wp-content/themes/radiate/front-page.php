@@ -44,6 +44,11 @@ get_header(); ?>
 	<?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
 
 	<div class="recent-posts-container">
+		<h2 class="recent-posts-header">
+			<span>
+				Les petits derniers
+			</span>
+		</h2>
 		<!-- Recent posts -->
 		<?php 
 
@@ -61,15 +66,19 @@ get_header(); ?>
 			$post_cat = $post_cat[0]->cat_name;
 			echo "
 				<li>
-					<a href='$post_link' title='$post_title'>
-						$post_pic
-					</a>
-					<p class='recent-post-header'>
-						$post_cat / $post_date
-					</p>
-					<a href='$post_link' title='$post_title'>
-						$post_title
-					</a>
+					<figure class='post-thumb'>
+						<a href='$post_link' title='$post_title'>
+							$post_pic
+						</a>
+					</figure>
+					<div class='popular-post-info'>
+						<p class='recent-post-header'>
+							$post_cat
+						</p>
+						<a class='recent-post-link' href='$post_link' title='$post_title'>
+							$post_title
+						</a>
+					</div>
 
 				</li>";
 			
